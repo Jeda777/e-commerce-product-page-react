@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/ecommerce-product-page-react-sJsH3igom5)
+- [Live site](https://magenta-sherbet-c90b89.netlify.app/)
 
 ## Built with
 
