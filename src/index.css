@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+input {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.desktop-nav-link{
+    @apply transition-all hover:text-very-dark-blue relative after:absolute hover:after:w-full after:h-[3px] after:left-0 after:bottom-[-37px] after:bg-primary
+}
