@@ -98,7 +98,7 @@ const Navbar: React.FC<Props> = ({ cartItems, setCartItems }) => {
                       </div>
                     </div>
                     <button
-                      onClick={(e) => {
+                      onClick={() => {
                         setCartItems([...cartItems.slice(0, index), ...cartItems.slice(index + 1, cartItems.length)])
                       }}
                     >
